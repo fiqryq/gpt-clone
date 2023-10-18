@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+pre {
+  background-color: #f5f5f5;
+}
+
+/* Customize code font style */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+/* Define colors for different code components */
+.token.comment {
+  color: #888;
+}
+
+.token.keyword {
+  color: #0077b6;
+}
+
+.token.string {
+  color: #e85d04;
+}
